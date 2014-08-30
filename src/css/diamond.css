@@ -1,0 +1,12 @@
+/* diamond.css */
+
+/**
+ * Injects onto the chat page to style the watermark.
+ */
+img.diamondchat {
+	bottom: 70px;
+	position: fixed;
+	opacity: 0.17;
+	left: 163px;
+	z-index: 100;
+}

@@ -1,0 +1,45 @@
+{
+	"config_version": "2",
+	"name": "DiamondChat",
+	"author": "James Mortensen (http://stackoverflow.com/users/552792/jmort253)",
+	"version": "0.1",
+	"platform_version": "v1.4",
+	"description": "Embeds diamonds in all private chat rooms.",
+	"modules": {
+		"logging": {
+			"level": "INFO"
+		},
+		"contact": true,
+		"file": true,
+		"is": true,
+		"media": true,
+		"prefs": true,
+		"request": {
+			"permissions": ["http://*/*", "https://*/*"]
+		},
+		"tools": true,
+		"reload": true,
+		"activations": [
+			{
+				"patterns": ["http://chat.stackexchange.com/*"],
+				"scripts": ["js/main.js"],
+				"styles": ["css/diamond.css"],
+				"run_at": "end",
+				"all_frames": false,
+				"web_accessible_resources": [ "images/diamond.png" ]
+			}
+		],
+		 "background": {
+            "files": ["js/background.js"]
+        },
+        "requirements": {
+	        "chrome": {
+	            "content_security_policy": "script-src 'unsafe-eval'; object-src 'self'",
+	            "web_accessible_resources": [
+	                "src/images/diamond.png",
+	                "src/css/diamond.css"
+	            ]
+	        }
+	    }
+	}
+}
