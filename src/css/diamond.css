@@ -6,7 +6,8 @@
 img.diamondchat {
 	bottom: 70px;
 	position: fixed;
-	opacity: 0.17;
+	opacity: 0.12;
 	left: 163px;
 	z-index: 100;
+	pointer-events: none;
 }
