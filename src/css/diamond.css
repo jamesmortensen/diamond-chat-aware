@@ -11,3 +11,15 @@ img.diamondchat {
 	z-index: 100;
 	pointer-events: none;
 }
+
+/**
+ * Injects onto the page behind the text input.
+ */
+img.diamondtextbox {
+	position: absolute;
+    top: 14px;
+    width: 50px;
+    opacity: 0.3;
+    left: 327px;
+    pointer-events: none;
+}
