@@ -5,14 +5,19 @@ forge.logging.debug("Add JavaScript to js/main.js!");
 forge.logging.debug("Add diamond placeholders: placeholder=♦");
 
 
-function injectImageInPage(containerId, imageClassName) {
-    return function(myUrl) {
-        var url = myUrl;
-        var chatContainer = document.getElementById(containerId);
-        var diamondImg = document.createElement('img');
-        diamondImg.src = url;
-        diamondImg.className = imageClassName;
-        chatContainer.appendChild(diamondImg);
+function injectElementInPage(elementType, containerId, elementClassName, _imgId, _text) {
+    return function(resourceUrl) {
+        var url = resourceUrl;
+        var container = document.getElementById(containerId);
+        var diamondElement = document.createElement(elementType);
+        if(url !== undefined)
+            diamondElement.src = url;
+        diamondElement.className = elementClassName;
+        if(_imgId)
+            diamondElement.id = _imgId;
+        if(_text)
+            diamondElement.innerHTML = _text;
+        container.appendChild(diamondElement);
     };
 }
 
@@ -26,8 +31,9 @@ if(isLockedRoom !== null) {
     /**
      * Inject watermark into page.
      */
-    forge.tools.getURL("images/diamond.png", injectImageInPage('chat', 'diamondchat'));
-    forge.tools.getURL("images/diamond.png", injectImageInPage('bubble', 'diamondtextbox'));
+    //forge.tools.getURL("images/diamond.png", injectElementInPage('img', 'chat', 'diamondchat'));
+    //forge.tools.getURL("images/diamond.png", injectElementInPage('img', 'bubble', 'diamondtextbox'));
+    injectElementInPage('p', 'bubble', 'diamondtextbox', '', '♦')();
 
     /**
      * Inject CSS stylesheet onto page.

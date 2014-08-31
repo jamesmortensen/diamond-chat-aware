@@ -23,3 +23,16 @@ img.diamondtextbox {
     left: 327px;
     pointer-events: none;
 }
+
+/**
+ * Styling for a text-based diamond.
+ */
+p.diamondtextbox {
+	position: absolute;
+	top: -2px;
+	font-size: 60px;
+	left: 335px;
+	opacity: 0.43;
+	pointer-events: none;
+	color: #d3d3d3;
+}
