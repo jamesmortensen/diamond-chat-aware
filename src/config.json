@@ -1,8 +1,8 @@
 {
     "config_version": "2",
-    "name": "DiamondChat",
+    "name": "Diamond Chat Aware",
     "author": "James Mortensen (http://stackoverflow.com/users/552792/jmort253)",
-    "version": "0.2",
+    "version": "0.3",
     "platform_version": "v1.4",
     "description": "Embeds diamonds in all private chat rooms.",
     "modules": {
