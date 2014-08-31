@@ -24,6 +24,18 @@ This is a simple Chrome and Firefox extension that inserts a diamond watermark i
 - Once installed, reload all your private chat windows to see diamonds.
 
 
+###Internet Explorer (Experimental!)
+
+**NOTE:** These are unsigned binaries that don't seem to work. They are here for demonstration purposes only. 
+
+- Download the IE Binaries either for [32 bit]() or [64 bit]().
+- Locate the downloaded file(s). 
+- To allow your browser to download them, I renamed `*.exe` to `*_exe`. Once downloaded, rename the files back to `*.exe`
+- As a safeguard, if you are on Windows, ***please scan these files for viruses!*** Whenever downloading stuff from the Internet, ***please be safe!***
+- Execute the binary to install the browser helper object in Internet Explorer.
+- Observe that, while the add-on gets installed, and is listed as "enabled", it doesn't work. Furthermore, there are no native tools inside Internet Explorer to further debug the add-on.
+
+
 ##Legal
 
 *This product is not affiliated with Stack Exchange™. [The Stack Exchange™ name and logos are trademarks of Stack Exchange Inc. The names and logos for sites and products operating on the Stack Exchange™ network are also trademarks of Stack Exchange™ Inc.](http://stackexchange.com/legal/trademark-guidance)*
