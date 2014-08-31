@@ -28,7 +28,7 @@ This is a simple Chrome and Firefox extension that inserts a diamond watermark i
 
 **NOTE:** These are unsigned binaries that don't seem to work. They are here for demonstration purposes only. 
 
-- Download the IE Binaries either for [32 bit]() or [64 bit]().
+- Download the IE Binaries either for [32 bit](https://github.com/jamesmortensen/diamond-chat-aware/blob/internet-explorer/release/ie/Diamond%20Chat%20Aware-0.3-x86_exe?raw=true) or [64 bit](https://github.com/jamesmortensen/diamond-chat-aware/blob/internet-explorer/release/ie/Diamond%20Chat%20Aware-0.3-x64_exe?raw=true).
 - Locate the downloaded file(s). 
 - To allow your browser to download them, I renamed `*.exe` to `*_exe`. Once downloaded, rename the files back to `*.exe`
 - As a safeguard, if you are on Windows, ***please scan these files for viruses!*** Whenever downloading stuff from the Internet, ***please be safe!***
