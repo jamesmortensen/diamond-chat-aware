@@ -14,7 +14,7 @@ Note that you can install directly from the [Chrome Web Store](https://chrome.go
 - Find the downloaded file -- `Diamond Chat Aware.crx` -- in your downloads folder.
 - In Chrome, open Tools->Extensions to see the list of all installed Chrome extensions.
 - Drag and drop the CRX file and drop it in the center of the Chrome window.
-- Once installed, reload all your private chat windows to see diamonds.
+- Once installed, reload all your private chat windows to see a diamond watermark.
 
 
 ###Firefox
@@ -27,7 +27,7 @@ Note that -- assuming Mozilla has not removed the extension due to OpenForge fai
 - In Firefox, open Tools -> Add-ons.
 - Click the Gear drop-down at the top, inside the Add-ons page, next to "Search all add-ons".
 - Select "Install Add-on From File", and find `Diamond Chat Aware.xpi`.
-- Once installed, reload all your private chat windows to see diamonds.
+- Once installed, reload all your private chat windows to see a diamond watermark.
 
 
 ###Userscript
