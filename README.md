@@ -1,5 +1,7 @@
 This is a simple Chrome and Firefox extension (and a userscript) that inserts a diamond watermark into Stack Exchange™ private chat rooms to help make folks more aware of which rooms are private and which are not. The extensions are built using [OpenForge](https://github.com/trigger-corp/browser-extensions), an open source framework for building browser extensions. 
 
+For more information, on what this does, see the [Diamond Chat Aware Stack Apps page](http://stackapps.com/q/4862/4812).
+
 
 ##Installation
 
